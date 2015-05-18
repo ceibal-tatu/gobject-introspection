@@ -1,7 +1,7 @@
 Source: gobject-introspection
 Section: devel
 Priority: optional
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Maintainer: Plan Ceibal <ceibal@plan.ceibal.edu.uy>
 Uploaders: @GNOME_TEAM@
 Build-Depends: debhelper (>= 8),
                cdbs (>= 0.4.90~),
