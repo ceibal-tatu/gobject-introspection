@@ -1,0 +1,25 @@
+Description: Fix build with glib 2.30 by reverting to deprecated g_value_[gs]et_char API.
+Author: Martin Pitt <mpitt@debian.org>
+
+Index: gobject-introspection/tests/gimarshallingtests.c
+===================================================================
+--- gobject-introspection.orig/tests/gimarshallingtests.c	2012-02-16 17:24:41.000000000 +0100
++++ gobject-introspection/tests/gimarshallingtests.c	2012-03-05 19:34:42.631222668 +0100
+@@ -4363,7 +4363,7 @@
+             g_value_set_boolean (value, self->some_boolean);
+             break;
+         case SOME_CHAR_PROPERTY:
+-            g_value_set_schar (value, self->some_char);
++            g_value_set_char (value, self->some_char);
+             break;
+         case SOME_UCHAR_PROPERTY:
+             g_value_set_uchar (value, self->some_uchar);
+@@ -4408,7 +4408,7 @@
+             self->some_boolean = g_value_get_boolean (value);
+             break;
+         case SOME_CHAR_PROPERTY:
+-            self->some_char = g_value_get_schar (value);
++            self->some_char = g_value_get_char (value);
+             break;
+         case SOME_UCHAR_PROPERTY:
+             self->some_uchar = g_value_get_uchar (value);
