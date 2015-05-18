@@ -1,1 +1,2 @@
 glib_2.30_api.patch
+g_callable_info_invoke-public.patch

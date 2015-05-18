@@ -29,6 +29,7 @@ libgirepository-1.0.so.1 libgirepository-1.0-1 #MINVER#
  g_callable_info_get_n_args@Base 0.9.2
  g_callable_info_get_return_attribute@Base 0.9.2
  g_callable_info_get_return_type@Base 0.9.2
+ g_callable_info_invoke@Base 1.32.0-1+6.0trisquel1
  g_callable_info_iterate_return_attributes@Base 0.9.2
  g_callable_info_load_arg@Base 0.9.2
  g_callable_info_load_return_type@Base 0.9.2
