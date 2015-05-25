@@ -1,8 +1,8 @@
-gobject-introspection (1.32.0-1tatu2) UNRELEASED; urgency=medium
+gobject-introspection (1.32.0-1tatu2) tatu; urgency=medium
 
   * Fixed dependencies. 
 
- -- Plan Ceibal <ceibal@plan.ceibal.edu.uy>  Mon, 25 May 2015 11:14:26 -0300
+ -- Plan Ceibal <ceibal@plan.ceibal.edu.uy>  Mon, 25 May 2015 11:16:49 -0300
 
 gobject-introspection (1.32.0-1tatu1) tatu; urgency=medium
 
