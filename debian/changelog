@@ -1,3 +1,9 @@
+gobject-introspection (1.32.0-1~tatu3) UNRELEASED; urgency=medium
+
+  * Updated version number to be avobe ac version numbers.
+
+ -- Plan Ceibal <ceibal@plan.ceibal.edu.uy>  Mon, 25 May 2015 23:48:18 -0300
+
 gobject-introspection (1.32.0-1tatu2) tatu; urgency=medium
 
   * Fixed dependencies. 
