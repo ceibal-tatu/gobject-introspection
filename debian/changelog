@@ -1,6 +1,12 @@
+gobject-introspection (1.32.0-1-tatu4) tatu; urgency=medium
+
+  * Updated version number to be above +12.04ac.
+
+ -- Plan Ceibal <ceibal@plan.ceibal.edu.uy>  Sun, 31 May 2015 20:23:35 -0300
+
 gobject-introspection (1.32.0-1~tatu3) tatu; urgency=medium
 
-  * Updated version number to be avobe ac version numbers.
+  * Updated version number to be above ac version numbers.
 
  -- Plan Ceibal <ceibal@plan.ceibal.edu.uy>  Mon, 25 May 2015 23:52:17 -0300
 
